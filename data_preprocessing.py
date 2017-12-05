@@ -14,7 +14,7 @@ from sklearn import cross_validation
 THRESHOLD = 73 
 N_FOLDS = 21
 RND_SEED = 56
-
+##adding some comments
 ####### 1. Import training data and extract ids #######
 train_raw = pd.read_csv("./data/train.csv")
 raw_ids_all = train_raw["Id"]
