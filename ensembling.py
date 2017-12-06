@@ -15,6 +15,7 @@ dataver = 2
 num_rand = 61
 
 ## User inputs
+##adding comments.....
 for i in range(1,len(sys.argv)):
     if sys.argv[i].startswith('-'):
         option = sys.argv[i][1:]
@@ -37,6 +38,7 @@ for rand_ver in xrange(1,num_rand):
     
 ens_groups = ens_output.groupby('Id')
 #ens = ens_groups.median()
+##more comments
 ens = ens_groups.mean()
 
 ens = np.round(ens/0.254)*0.254
